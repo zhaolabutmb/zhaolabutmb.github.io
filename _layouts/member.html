@@ -101,7 +101,7 @@ layout: default
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-inbox fa-fw"></i>
-			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
+			<a href = "mailto: {{ member.email }}">{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}</a>
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
