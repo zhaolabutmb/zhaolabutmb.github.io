@@ -71,6 +71,17 @@ layout: default
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
+		{% if member.email %}
+		<div class="smallhead">
+			Email
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-book fa-fw"></i>
+			<a href = "mailto: {{ member.email }}"></a>{{ member.title }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
 		{% if member.calendar %}
 		<div class="smallhead">
 			Calendar
