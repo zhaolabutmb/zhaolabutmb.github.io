@@ -1,4 +1,4 @@
-# bedford lab research
+# Nielsen Lab Research
 
 ## Build site
 
