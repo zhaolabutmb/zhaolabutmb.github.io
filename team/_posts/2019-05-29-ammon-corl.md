@@ -4,7 +4,6 @@ title: Ammon Corl
 position: Postdoc
 image: /images/team/AmmonPicture.jpeg
 email:  ammoncorl@berkeley.edu
-twitter: joanocha
 scholar: K7r_6okAAAAJ
 website: https://ammoncorl.github.io
 
