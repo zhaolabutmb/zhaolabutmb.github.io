@@ -6,7 +6,7 @@
 #  - owner: trvrb
 #  - title: coaltrace
 #  - description: Simulating genealogies using charged particles
-#  - url: /projects/coaltrace/
+#  - url: /research/coaltrace/
 #  - date: 2013-10-19 04:12:17 UTC
 #  - contributors:
 #      - login: trvrb
@@ -44,7 +44,7 @@ module Projects
 				project_title = octokit_repo.name
 				project_owner = octokit_repo.owner.login
 				project_description = octokit_repo.description
-				project_url = "/projects/#{project_title}/"
+				project_url = "/research/#{project_title}/"
 				project_date = octokit_repo.updated_at
 
 				# load contributor metadata
