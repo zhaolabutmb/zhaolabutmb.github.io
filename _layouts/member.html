@@ -132,19 +132,19 @@ layout: default
 		{% endfor %}
 		{% endif %}
 
-		{% for project in site.data.projects %}
+		{% for project in site.data.research %}
 			{% for contributor in project.contributors %}
 				{% if contributor.login == member.github %}
-					{% assign projectsq = true %}
+					{% assign newsq = true %}
 				{% endif %}
 			{% endfor %}
 		{% endfor %}
 
-		{% if projectsq == true %}
+		{% if newsq == true %}
 		<div class="bigspacer"></div>
 		<div class="head">Projects</div>
 		<div class="spacer"></div>
-		{% for project in site.data.projects %}
+		{% for project in site.data.research %}
 			{% assign present = false %}
 			{% for contributor in project.contributors %}
 				{% if contributor.login == member.github %}
