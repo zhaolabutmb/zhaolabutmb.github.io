@@ -6,7 +6,7 @@ image: /images/team/EmmaPicture.jpg
 email: emma_steigerwald@berkeley.edu
 twitter: EmmaSteigerwald
 scholar: mLTqWtAAAAAJ
-website: https://emmacsteigerwald.wixsite.com/mysite/about
+website: https://emmacsteigerwald.wixsite.com/mysite
 github: steigeec
 cv: /pdfs/team/emmacv.pdf
 
