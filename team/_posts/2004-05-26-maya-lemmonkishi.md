@@ -4,7 +4,7 @@ title: Maya Lemmon-Kishi
 position: PhD Student
 image: /images/team/MayaPicture.jpg
 email: maya_lemmon-kishi@berkeley.edu
-website: maya-lk.com
+website: https://maya-lk.com
 
 ---
 
