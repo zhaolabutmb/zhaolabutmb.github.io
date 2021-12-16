@@ -4,7 +4,7 @@ title: AncestralClust: clustering of divergent nucleotide sequences by ancestral
 ref: Pipes and Nielsen 2021. Bioinformatics.
 year: 2021
 pdf: /pdfs/papers/clusteringsupp.pdf
-image: /images/papers/cluster_ancestral.png
+image: /images/papers/clusterancestral.png
 ---
 
 # Abstract
