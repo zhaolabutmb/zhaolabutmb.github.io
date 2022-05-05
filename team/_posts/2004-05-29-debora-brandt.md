@@ -5,6 +5,7 @@ position: PhD Student
 image: /images/team/DeboraPicture.jpg
 email: deboraycb@berkeley.edu
 scholar: CgsrKzUAAAAJ
+github: deboraycb
 
 ---
 
