@@ -6,6 +6,7 @@ image: /images/team/JoanaPicture.JPG
 email:  joana_rocha@berkeley.edu
 twitter: joanocha
 website: https://joanocha.github.io
+alumni: true
 
 ---
 
