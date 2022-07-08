@@ -4,6 +4,7 @@ title: Andrew Vaughn
 position: PhD Student
 image: /images/team/VaughnPicture.jpeg
 email: ahv36@berkeley.edu
+scholar: 0dHbJacAAAAJ
 twitter: andrewhvaughn
 
 ---
