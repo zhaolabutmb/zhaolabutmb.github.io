@@ -4,7 +4,7 @@ title: Overcoming Language Barriers in Academia: Machine Translation Tools and a
 ref: Steigerwald et al. 2022. BioScience.
 year: 2022
 pdf: /pdfs/papers/LanguageBarriers.pdf
-image: /images/papers/languagebarriers.png
+image: /images/papers/lizards.jpg
 ---
 
 # Abstract
