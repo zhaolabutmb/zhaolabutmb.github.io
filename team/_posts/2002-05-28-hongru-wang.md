@@ -6,6 +6,7 @@ image: /images/team/HongruPicture.jpg
 email: henryscut@hotmail.com
 twitter: hongru_wang
 scholar: kaAFHOwAAAAJ
+alumni: true
 
 ---
 
