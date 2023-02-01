@@ -6,6 +6,7 @@ image: /images/team/AmmonPicture.jpeg
 email:  ammoncorl@berkeley.edu
 scholar: K7r_6okAAAAJ
 website: https://ammoncorl.github.io
+alumni: true
 
 ---
 
