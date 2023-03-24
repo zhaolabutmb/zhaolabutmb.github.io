@@ -5,6 +5,7 @@ position: PhD Student
 image: /images/team/VaughnPicture.jpeg
 email: ahv36@berkeley.edu
 scholar: 0dHbJacAAAAJ
+github: avaughn271
 twitter: andrewhvaughn
 
 ---
