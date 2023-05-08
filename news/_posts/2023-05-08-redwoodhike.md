@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nielsen Lab Attends ProbGen Conference
+title: Redwood Hike
 author: Andrew Vaughn
 date: 2023-05-08
 image: /images/news/redwoodhike.jpg
