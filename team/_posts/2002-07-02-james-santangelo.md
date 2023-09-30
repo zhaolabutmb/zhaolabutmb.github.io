@@ -5,7 +5,7 @@ position: Postdoc
 image: /images/team/jamespicture.jpeg
 email: james.santangelo@berkeley.edu
 scholar: 3Y4O9c4AAAAJ
-website: james-s-santangelo.github.io
+website: https://james-s-santangelo.github.io
 github: James-S-Santangelo
 
 ---
