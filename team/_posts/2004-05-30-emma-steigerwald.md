@@ -9,6 +9,7 @@ scholar: mLTqWtAAAAAJ
 website: https://emmacsteigerwald.wixsite.com/mysite
 github: steigeec
 cv: /pdfs/team/emmacv.pdf
+alumni: true
 
 ---
 
