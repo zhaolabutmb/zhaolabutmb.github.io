@@ -6,6 +6,7 @@ image: /images/team/vincepicture.jpg
 email: vsb@berkeley.edu
 scholar: 7w_tyXUAAAAJ
 website: www.vincebuffalo.com
+github: vsbuffalo
 twitter: vsbuffalo
 
 ---
