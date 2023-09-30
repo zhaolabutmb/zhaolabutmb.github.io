@@ -7,6 +7,7 @@ email: aguilar-gomez@berkeley.edu
 twitter: dianaguilr
 scholar: IvS5ON0AAAAJ
 github: aguilar-gomez
+almuni: true
 
 ---
 
