@@ -14,4 +14,4 @@ twitter: vsbuffalo
 
 My research aims to understand how natural selection can be detected and quantified using genomic data. 
 I develop population and quantitative genetic theory, statistical methods, and computational tools to understand how 
-selection shapes genome-wide patterns of variation as well as diversity across species.
+selection shapes genome-wide patterns of variation as well as diversity across species. 
