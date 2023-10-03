@@ -5,7 +5,7 @@ position: Postdoc
 image: /images/team/vincepicture.jpg
 email: vsb@berkeley.edu
 scholar: 7w_tyXUAAAAJ
-website: https://www.vincebuffalo.com
+website: https://vincebuffalo.com
 github: vsbuffalo
 twitter: vsbuffalo
 
