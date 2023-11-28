@@ -3,6 +3,7 @@ layout: member
 title: Michael Lind Severinsen
 position: Visiting PhD Student
 image: /images/team/MichaelPicture.jpg
+alumni: true
 
 ---
 
