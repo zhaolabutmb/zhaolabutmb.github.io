@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Débora Y. C. Brandt
-position: PhD Student
+position: PhD Candidate
 image: /images/team/DeboraPicture.jpg
 email: deboraycb@berkeley.edu
 scholar: CgsrKzUAAAAJ
