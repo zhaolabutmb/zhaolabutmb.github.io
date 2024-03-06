@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Sandra Hui
-position: PhD Student
+position: PhD Candidate
 image: /images/team/SandraPicture.jpg
 email: sandra_hui@berkeley.edu
 scholar: gJaOCQMAAAAJ
