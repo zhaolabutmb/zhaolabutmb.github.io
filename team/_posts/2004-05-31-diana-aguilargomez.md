@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Diana Aguilar Gómez
-position: PhD Student
+position: PhD Candidate
 image: /images/team/DianaPicture.JPG
 email: aguilar-gomez@berkeley.edu
 twitter: dianaguilr
