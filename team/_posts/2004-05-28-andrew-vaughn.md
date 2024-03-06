@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Andrew Vaughn
-position: PhD Student
+position: PhD Candidate
 image: /images/team/VaughnPicture.jpeg
 email: ahv36@berkeley.edu
 scholar: 0dHbJacAAAAJ
