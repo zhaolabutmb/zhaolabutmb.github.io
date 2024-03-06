@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Sasha Nikolaeva
-position: PhD Student
+position: PhD Candidate
 image: /images/team/SashaNikolaeva.jpg
 scholar: 3uYaV4oAAAAJ
 email:  sashanikolaeva@berkeley.edu
