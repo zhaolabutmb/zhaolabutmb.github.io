@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Fiona Callahan
-position: PhD Student
+position: PhD Candidate
 image: /images/team/FionaPicture.jpeg
 email:  fiona_callahan@berkeley.edu
 
