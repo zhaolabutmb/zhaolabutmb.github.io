@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Alex Guzman
-position: PhD Student
+position: PhD Candidate
 image: /images/team/guzman.jpg
 email:  alexguzman@berkeley.edu
 twitter: alexvguzman
