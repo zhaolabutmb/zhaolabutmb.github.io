@@ -1,6 +1,6 @@
-name: Nielsen Lab Research
-description: Lab Website for the Lab of Rasmus Nielsen
-url: https://nielsen-lab.github.io/
+name: Zhao Lab Research
+description: Lab Website for the Lab of Haiqing Zhao
+url: https://zhao-lab.github.io/
 
 markdown: kramdown
 permalink: /:categories/:title/
@@ -10,6 +10,10 @@ sass:
 
 plugins: ['jekyll-twitter-plugin']
 
+redcarpet: 
+  extensions:
+   - tables
+   
 exclude:
   - "*.branches"
   - "*.class"

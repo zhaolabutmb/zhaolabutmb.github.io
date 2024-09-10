@@ -1,178 +1,140 @@
 ---
 layout: default
-title: Nielsen Lab
+title: The Zhao Lab
 categories:
  - home
 ---
 
 <div class="row">
-	<div class="col-lg-12">
-		 <img src="/images/labpicture2023.jpeg">
+	<div class="col-lg-12" style="text-align: center;">
+		<img src="/images/lab_pic.png" style="width: 100%; max-width: 820px; height: auto;">
 	</div>
 </div>
 
-<div class="bigspacer"></div>
+<div style="font-size: 30px; font-weight: bold; text-align: center; font-family: 'Arial', sans-serif; height: 12vh; display: flex; justify-content: center; align-items: center;">
+    The Zhao Lab at University of Texas Medical Branch (UTMB)
+</div>
 
 <div class="row">
 	<div class="col-lg-12">
 		<div class="smallhead">
-      <p>
-		The Nielsen Lab works on the development and application of statistical and computational methods for
-		analyzing genomic data in the context of
-		 evolutionary genetics, population genetics, and medical genetics. We are associated with the
-		 <a href="https://ib.berkeley.edu">Department of Integrative Biology</a>,
-		  the <a href="https://statistics.berkeley.edu">Department of Statistics</a>, and the
-		   <a href="https://ccb.berkeley.edu">Center
-		  for Computational Biology</a> at <a href="https://www.berkeley.edu">UC Berkeley</a>.
-		   We are also affiliated with the <a href="https://globe.ku.dk/research/lundbeck-foundation-geogenetics-centre/">Lundbeck Foundation Center for GeoGenetics</a> at the University of Copenhagen.
-		   You can read more about our research <a href="/research/">here</a>.
-      </p>
-      <p>
-        In the Nielsen Lab we are committed individually and collectively to fighting all forms of discrimination and injustice. This includes opposing systems
-		 and actions that perpetuate discrimination based on attributes such as race, sex, sexual orientation, gender identity, disability, and socioeconomic class.
-		We strive to build an inclusive environment where excellence in research is built on a foundation of diversity and equity and is
-		 fueled by honest scientific curiosity and integrity. We believe that Black Lives Matter and we fight to Stop Asian Hate.
-      </p>
+      	<p>
+		We are a computational lab at University of Texas Medical Branch in Galveston, Texas – a beautiful island just south of Houston.
+		Our research focuses on developing and applying computational approaches to study Protein-Protein Interactions (PPIs) regarding their molecular biophysics and interaction pathways on the systems level. 
+		The long-term goal is to 1) understand disease mechanism by exploiting the predicted PPI networks; 
+		2) narrow down key proteins and target them for mutation design, vaccine design, or drug design. 
+		We are particularly interested in Host-Pathogen Interactions and epigenetics. Our lab is part of the
+		 <a href="https://www.utmb.edu/bmb/home">Department of Biochemistry & Molecular Biology</a> in the <a href="https://www.utmb.edu/som/home">School of Medicine</a>, the first medical school in Texas and the nation’s first public medical school and hospital under unified leadership.
+		 We are also associated with <a href="https://scsb.utmb.edu/">Sealy Center for Structural Biology and Molecular Biophysics</a> at <a href="https://www.utmb.edu">UTMB</a>.   
+      	</p>
+      	<p>
+
+    	</p>
 		</div>
 	</div>
 </div>
 
-<div class="bigspacer"></div>
-<div class="bigspacer"></div>
+<div class="hugespacer"></div>
+
+<!-- set row for three columns --> 
 
 <div class="row">
-	<div class="col-lg-12">
+
+	<!-- first column -->
+	<div class="col-md-4">
 		<div class="head">
-			<a class="off" href="/news/">Recent news</a>
+			<a class="off" href="/misc/join/">
+				Pinned posts
+			</a>
 		</div>
 		<div class="spacer"></div>
-	</div>
-</div>
 
-<div class="row">
-	{% for post in site.categories.news limit:4 %}
+		<div class="feedbox">
+			{% for paper in site.categories.misc limit:2 %}
 
-	{% for member in site.categories.team %}
-		{% if member.title == post.author %}
-			{% assign author = member %}
-		{% endif %}
-	{% endfor %}
+					<div class="note">
+						<i class="fa fa-bullhorn fa-fw"></i>
+						<a class="off" href="{{ paper.pdf }}">
+						{{ paper.title }}
+						</a>
+					</div>
+					<div class="smallspacer"></div>
+					<div class="smallnote">
+						Posted
+						{{ paper.date | date: "%b %-d, %Y" }}
+					</div>
+					<div class="bigspacer"></div>
 
-	<div class="col-lg-3 reduced-gutter">
-		<div class="pad-left">
-			<div class="note">
-				<i class="fa fa-comment-o fa-fw"></i>
-				<a class="off" href="{{ post.url }}">
-				{{ post.title }}
-				</a>
-			</div>
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				Posted
-				{{ post.date | date: "%-d %b %Y" }}
-        {% if post.author %}
-        by <a class="off" href="
-          {% for member in site.categories.team %}
-            {% if member.title == post.author %}
-              {{ member.url }}
-            {% endif %}
-          {% endfor %}
-        ">
-        {{ post.author }}
-        </a>
-        {% endif %}
-        {% if post.authors %}
-        by
-        <a class="off" href="
-          {% for member in site.categories.team %}
-            {% if member.title == post.authors.first %}
-              {{ member.url }}
-            {% endif %}
-          {% endfor %}
-        ">
-        {{ post.authors.first }}
-        </a>
-        and
-        <a class="off" href="
-          {% for member in site.categories.team %}
-            {% if member.title == post.authors.last %}
-              {{ member.url }}
-            {% endif %}
-          {% endfor %}
-        ">
-        {{ post.authors.last }}
-        </a>
-        {% endif %}
-			</div>
-			<div class="bigspacer"></div>
+			{% endfor %}
 		</div>
 	</div>
-	{% endfor %}
-</div>
+	<div class="spacer"></div>
 
-<div class="spacer"></div>
-
-<div class="row">
-	<div class="col-lg-12">
+	<!-- second column -->
+	<div class="col-md-4">
 		<div class="head">
-			<a class="off" href="/papers/">Recent papers</a>
+			<a class="off" href="/News/">
+				Recent news
+			</a>
 		</div>
 		<div class="spacer"></div>
-	</div>
-</div>
 
-<div class="row">
-	{% for paper in site.categories.papers limit:4 %}
-	<div class="col-lg-3 reduced-gutter">
-		<div class="pad-left">
-			<div class="note">
-				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="{{ paper.pdf }}">
-				{{ paper.title }}
-				</a>
-			</div>
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				Posted
-				{{ paper.date | date: "%-d %b %Y" }}
-			</div>
-			<div class="bigspacer"></div>
+		<div class="feedbox">
+			{% for post in site.categories.News limit: 4 %}
+
+					<!-- fa fa-newspaper-o fa-bullhorn file-text --> 
+					<div class="note">
+						<i class="fa fa-bullhorn fa-fw"></i>
+						<a class="off" href="{{ post.url }}">
+						{{ post.title }}
+						</a>
+					</div>
+					<div class="smallspacer"></div>
+					<div class="smallnote">
+						Posted
+						{{ post.date | date: "%b %-d, %Y" }}
+					</div>
+					<div class="bigspacer"></div>
+			{% endfor %}
+
 		</div>
 	</div>
-	{% endfor %}
-</div>
+	<div class="spacer"></div>
 
-<div class="spacer"></div>
+	<!-- third column --> 
+	<div class="col-md-4">
+		<div class="head">
+			<a class="off" href="/Papers/">
+				Recent papers
+			</a>
+		</div>
+		<div class="spacer"></div>
 
+		<div class="feedbox">
+			{% for paper in site.categories.Papers limit:4 %}
 
-<div class="row">
-	{% for project in site.data.projects limit:4 %}
-	<div class="col-lg-3 reduced-gutter">
-		<div class="pad-left">
-			<div class="note">
-				<i class="fa fa-edit fa-fw"></i>
-				<a class="off" href="{{ project.url }}">
-				{{ project.title }} - {{ project.description }}
-				</a>
-			</div>
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				Updated
-				<a class="off" href="{{ project.commits.first.url }}">
-				{{ project.commits.first.date | date: "%-d %b %Y" }}
-				</a>
-				by
-				<a class="off" href="{{ project.commits.first.author_url }}">
-				{{ project.commits.first.author_login }}
-				</a>
-			</div>
-			<div class="bigspacer"></div>
+					<div class="note">
+						<i class="fa fa-file-text-o fa-fw"></i>
+						<a class="off" href="{{ paper.pdf }}">
+						{{ paper.title }}
+						</a>
+					</div>
+					<div class="smallspacer"></div>
+					<div class="smallnote">
+						Posted
+						{{ paper.date | date: "%b %-d, %Y" }}
+					</div>
+					<div class="bigspacer"></div>
+
+			{% endfor %}
 		</div>
 	</div>
-	{% endfor %}
+	<div class="spacer"></div>
+
+
 </div>
 
-<div class="spacer"></div>
+<!-- set footer 
 
 <div id="footer">
 	<nav class="navbar navbar-expand-md navbar-light bg-navbar">
@@ -192,3 +154,4 @@ categories:
 		</div>
 	</nav>
 </div>
+--> 

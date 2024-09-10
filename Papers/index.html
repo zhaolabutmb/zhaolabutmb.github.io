@@ -1,0 +1,28 @@
+---
+layout: default
+title: Zhao Lab / Papers
+categories:
+ - papers
+---
+
+<left>Selected publications are listed. Please see <a href="https://scholar.google.com/citations?hl=en&user=ui13duUAAAAJ">Google Scholar</a> for more.</center>
+
+<div class="hugespacer"></div>
+
+{% for paper in site.categories.Papers %}
+		<div class="col-md-12 paperbox">
+			<div class="off">
+				<a class="pull-right" href="{{ paper.url }}">
+    				<img width=10 class="media-object" src="{{ paper.image }}">
+  				</a>
+
+ 			 	  <div class="media-body">
+    				<div class="smallhead media-heading">
+              			<a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+            		</div>
+    				<a  href="{{ paper.url }}"><p class="off">{{ paper.ref }}</p></a>
+  				  </div>
+			    </div>
+    </div>
+{% endfor %}
+
