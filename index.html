@@ -7,7 +7,7 @@ categories:
 
 <div class="row">
 	<div class="col-lg-12" style="text-align: center;">
-		<img src="/images/lab_pic.png" style="width: 100%; max-width: 820px; height: auto;">
+		<img src="/images/lab_pic.png" style="width: 100%; max-width: 835px; height: auto;">
 	</div>
 </div>
 
@@ -43,25 +43,23 @@ categories:
 	<!-- first column -->
 	<div class="col-md-4">
 		<div class="head">
-			<a class="off" href="/misc/join/">
 				Pinned posts
-			</a>
 		</div>
 		<div class="spacer"></div>
 
 		<div class="feedbox">
-			{% for paper in site.categories.misc limit:2 %}
+			{% for post in site.categories.News limit:2 %}
 
 					<div class="note">
 						<i class="fa fa-bullhorn fa-fw"></i>
-						<a class="off" href="{{ paper.pdf }}">
-						{{ paper.title }}
+						<a class="off" href="{{ post.url }}">
+						{{ post.title }}
 						</a>
 					</div>
 					<div class="smallspacer"></div>
 					<div class="smallnote">
-						Posted
-						{{ paper.date | date: "%b %-d, %Y" }}
+						Pinned
+						{{ post.date | date: "%b %-d, %Y" }}
 					</div>
 					<div class="bigspacer"></div>
 
@@ -80,7 +78,7 @@ categories:
 		<div class="spacer"></div>
 
 		<div class="feedbox">
-			{% for post in site.categories.News limit: 4 %}
+			{% for post in site.categories.News limit: 3 %}
 
 					<!-- fa fa-newspaper-o fa-bullhorn file-text --> 
 					<div class="note">
