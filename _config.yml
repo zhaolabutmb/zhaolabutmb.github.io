@@ -1,6 +1,6 @@
 name: Zhao Lab Research
-description: Lab Website for the Lab of Haiqing Zhao
-url: https://zhao-lab.github.io/
+description: Lab Website of Haiqing Zhao's Group at UTMB
+url: https://hzhao-lab.github.io/
 
 markdown: kramdown
 permalink: /:categories/:title/
