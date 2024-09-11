@@ -1,6 +1,6 @@
 # hzhao-lab.github.io
 
-This is the resource code of Zhao's research group [website](https://hzhao-lab.github.io) at University of Texas Medical Branch. This website is built based on the customized Jekyll system for research labs. The idea of such lab website set was originally inspired by [Shen lab](https://www.columbia.edu/~ys2411/). We referenced templates from [Bedford lab](https://bedford.io/misc/about/) (the original author) and [Nielson lab](https://nielsen-lab.github.io/). Valuable discussions with Dr. [Guang Shi](https://www.shisguang.com/) regarding Eleventy vs. Jekyll were also helpful in bringing this website to life.
+This is the source code for Zhao's research group [website](https://hzhao-lab.github.io) at The University of Texas Medical Branch. This website is built based on the customized Jekyll system for research labs. The idea of such lab website set was originally inspired by [Shen lab](https://www.columbia.edu/~ys2411/). We referenced templates from [Bedford lab](https://bedford.io/misc/about/) (the original author) and [Nielson lab](https://nielsen-lab.github.io/). Valuable discussions with Dr. [Guang Shi](https://www.shisguang.com/) regarding Eleventy vs. Jekyll were also helpful in bringing this website to life.
 
 You are welcome to fork this repository. 
 
