@@ -18,5 +18,5 @@ Dr. Zhao is an assistant professor in the [Department of Biochemistry and Molecu
 [2]: https://irp.nih.gov/pi/yamini-dalal
 [3]: https://ipst.umd.edu/research/nci
 [4]: https://honig.c2b2.columbia.edu/
-[5]: https://www.utmb.edu/bmb/home
-[6]: https://www.utmb.edu/scsb/home
+[5]: https://bmb.utmb.edu/people/faculty/bios/zhao
+[6]: https://www.utmb.edu/scsb/bios/haiqing-zhao-phd
