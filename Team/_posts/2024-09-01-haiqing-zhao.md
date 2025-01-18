@@ -2,12 +2,12 @@
 layout: member
 title: Haiqing Zhao
 position: Assistant Professor
-image: /images/team/haiqing_NIH.jpeg
+image: /images/team/HaiqingZhao.jpg
 email: hazhao@utmb.edu
 scholar: ui13duUAAAAJ
 website: https://zhao-lab.github.io
 cv: /pdfs/team/CV202409_HZ.pdf
-orcid: https://orcid.org/0000-0003-1168-5730
+orcid: 0000-0003-1168-5730
 twitter: 
 github: 
 ---
