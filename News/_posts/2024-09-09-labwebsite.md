@@ -1,9 +1,16 @@
 ---
 layout: post
-title: Lab Website Is Live
+title: Lab Website IS Live
 date: 2024-09-09
 ---
 
 We launched our group website. Welcome to check it out and please let us know if you find any errors!
 
-Ps: we thank Dr. <a href="https://www.shisguang.com/about">Guang Shi</a> for helpful discussions regarding using Eleventy or Jekyll – both of which are excellent static HTML website generators. We used a template written in Jekyll originally by Dr. <a href="https://bedford.io/team/trevor-bedford/">Trevor Bedford</a>. The source code is uploaded on <a href="https://github.com/hzhao-lab/hzhao-lab.github.io">GitHub</a>. 
+This website is built with Jekyll, which takes Markdown file and generates HTML styled with CSS. We used a template originally written by Dr. [Trevor Bedford] [3]. We thank Dr. [Guang Shi] [2] for helpful discussions on static HTML generators. The [source code] [4] is uploaded on GitHub.
+
+This website is maintained by the lab. We also have another [group webpage] [1] maintained by SCSB scientific computing team. 
+
+[1]: https://www.utmb.edu/scsb/labgroups/zhao/welcome
+[2]: https://www.shisguang.com/about
+[3]: https://bedford.io/team/trevor-bedford/
+[4]: https://github.com/hzhao-lab/hzhao-lab.github.io

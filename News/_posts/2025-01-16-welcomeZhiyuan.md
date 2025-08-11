@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Welcome Zhiyuan, Maria and Ziyu
+title: Welcome Zhiyuan, Maria and Ziyu *
 date: 2025-01-16
-image: /images/lablunch_20250116.jpg
+image: /images/news/LunchforZhiyuan.jpg
 ---
 
-In Jan 2025, Dr. [Zhiyuan Song] [1] joined us as a postdoc researcher. [Maria Clara] [2] joined us as a rotation student. [Ziyu Shi] [3] started working with us as a visiting student (currently remotely). Welcome, Zhiyuan, Maria and Ziyu! 
+In Jan 2025, Dr. [Zhiyuan Song]({{ site.baseurl }}/team/zhiyuan-song) joined us as a postdoc researcher. [Maria Clara]({{ site.baseurl }}/team/maria-clara) joined us as a rotation student. [Ziyu Shi][3] started working with us as a visiting student (remotely). Welcome, Zhiyuan, Maria and Ziyu!
 
-[1]: https://hzhao-lab.github.io/team/zhiyuan-song/
-[2]: https://hzhao-lab.github.io/team/maria-clara/
-[3]: https://hzhao-lab.github.io/team/ziyu-shi/
+[3]: https://zhaolabutmb.github.io/team/ziyu-shi/
