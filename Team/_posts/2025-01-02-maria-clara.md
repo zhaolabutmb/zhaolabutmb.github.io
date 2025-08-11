@@ -1,10 +1,10 @@
 ---
 layout: member
 title: Maria Clara Do Nascimento Garcia Leal
-position: PhD Student
+position: PhD Student (rotation)
 image: /images/team/MariaClara.jpg
-email: mcdonasc@utmb.edu
-
+email: mcdonasc@UTMB.EDU
+alumni: true
 ---
 
 Maria Clara is a graduate student (2024-) at UTMB in the [Structural Biology and Biophysics track] [1] of the [Biochemistry, Cellular, and Molecular Biology (BCMB) Graduate Program] [2]. Maria graduated with a B.S. in Biological Physics at São Paulo State University (Brazil). Her research interests lie in protein-protein interactions and electrostatics of conformationally flexible biomolecules.
