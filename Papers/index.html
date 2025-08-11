@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Zhao Lab / Papers
+title: ZhaoLab/Papers
 categories:
  - papers
 ---
@@ -9,20 +9,69 @@ categories:
 
 <div class="hugespacer"></div>
 
-{% for paper in site.categories.Papers %}
-		<div class="col-md-12 paperbox">
-			<div class="off">
-				<a class="pull-right" href="{{ paper.url }}">
-    				<img width=10 class="media-object" src="{{ paper.image }}">
-  				</a>
+{% assign papers_sorted = site.categories.Papers | sort: "date" | reverse %}
 
- 			 	  <div class="media-body">
-    				<div class="smallhead media-heading">
-              			<a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
-            		</div>
-    				<a  href="{{ paper.url }}"><p class="off">{{ paper.ref }}</p></a>
-  				  </div>
-			    </div>
+<h2>2024 and after</h2>
+{% for paper in papers_sorted %}
+  {% assign year = paper.date | date: "%Y" | plus: 0 %}
+  {% if year >= 2024 %}
+	<!--
+    {%- assign ref_html = paper.ref -%}
+    {%- assign my_names = "Haiqing Zhao|Zhiyuan Song|Ziyu Shi" | split: "|" -%}
+    {%- for n in my_names -%}
+      {%- capture repl -%}<strong class="me">{{ n }}</strong>{%- endcapture -%}
+      {%- assign ref_html = ref_html | replace: n, repl -%}
+    {%- endfor -%}
+	-->
+
+    <div class="col-md-12 paperbox">
+      <div class="off">
+        <a class="pull-right" href="{{ paper.url }}">
+          <img width="10" class="media-object" src="{{ paper.image }}">
+        </a>
+        <div class="media-body">
+          <div class="smallhead media-heading">
+            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+          </div>
+        <!--  <a href="{{ paper.url }}"> -->
+            <p class="off">{{ ref_html }}</p>
+          </a>
+        </div>
+      </div>
     </div>
+  {% endif %}
 {% endfor %}
+
+<h2>2023 and before</h2>
+{% for paper in papers_sorted %}
+  {% assign year = paper.date | date: "%Y" | plus: 0 %}
+  {% if year <= 2023 %}
+	<!--
+    {%- assign ref_html = paper.ref -%}
+    {%- assign my_names = "Haiqing Zhao|Zhiyuan Song|Ziyu Shi" | split: "|" -%}
+    {%- for n in my_names -%}
+      {%- capture repl -%}<strong class="me">{{ n }}</strong>{%- endcapture -%}
+      {%- assign ref_html = ref_html | replace: n, repl -%}
+    {%- endfor -%}
+	-->
+    <div class="col-md-12 paperbox">
+      <div class="off">
+        <a class="pull-right" href="{{ paper.url }}">
+          <img width="10" class="media-object" src="{{ paper.image }}">
+        </a>
+        <div class="media-body">
+          <div class="smallhead media-heading">
+            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+          </div>
+        <!--  <a href="{{ paper.url }}"> -->
+            <p class="off">{{ ref_html  }}</p>
+
+
+          </a>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+
 
