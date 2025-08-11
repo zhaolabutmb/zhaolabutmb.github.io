@@ -62,7 +62,8 @@ layout: default
 			<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
 		</div>		
 		<div class="bigspacer"></div>	
-		{% endif %}		
+		{% endif %}
+
 		{% if member.scholar %}
 		<div class="smallhead">
 			Google Scholar
@@ -71,21 +72,30 @@ layout: default
 			<div class="smallspacer"></div>
 			<i class="fa fa-book fa-fw"></i>
 			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
-		</div>		
+		</div>
 		<div class="bigspacer"></div>	
-		{% endif %}				   	
+		{% endif %}	
+
 		{% if member.email %}
-		{% assign emailarray = member.email | split: '@' %}
-		<div class="smallhead">
-			Email
-		</div>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-inbox fa-fw"></i>
+			{% assign emailarray = member.email | split: '@' %}
+			<div class="smallhead">	Email </div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-inbox fa-fw"></i>
 			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
-		</div>		
-		<div class="bigspacer"></div>			
-		{% endif %}						
+			</div>		
+			<div class="bigspacer"></div>			
+		{% endif %}
+		
+		{% if member.workspace %}
+		<div class="smallhead">Workspace</div>
+		<div class="pad-left note">
+    		{{ member.workspace }}
+  		</div>
+  		<div class="bigspacer"></div>
+		{% endif %}
+
+
 	</div>
 	<div class="col-md-8">	
 		<div class="post">
