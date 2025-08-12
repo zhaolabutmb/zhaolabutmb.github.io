@@ -3,8 +3,7 @@ layout: member
 title: Zhiyuan Song
 position: Postdoc Fellow
 image: /images/team/ZhiyuanSong.jpg
-email: zhisong@utmb.edu
-orcid: https://orcid.org/0000-0003-3556-8205
+orcid: 0000-0003-3556-8205
 github: songzhihenry
 email: zhisong@UTMB.EDU
 workspace: 5.416, Research Building 6
