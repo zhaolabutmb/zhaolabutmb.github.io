@@ -50,7 +50,7 @@ b, strong { font-weight: bold; }
 
 .navbar-text { font-size: 15px; font-weight: 300; /* Museo */ }
 
-.bg-navbar { background: #000099; border-bottom: 1px solid #000066; }
+.bg-navbar { background: #0e53aa; border-bottom: 1px solid #0c4792; }
 
 .nav-brand a { color: #555; }
 
@@ -98,7 +98,7 @@ p { font-weight: 300; }
 
 a.off { color: inherit; }
 
-pre { overflow-x: auto; border: 1px solid #000066; border-radius: 4px; padding: 10px; }
+pre { overflow-x: auto; border: 1px solid #1919a3; border-radius: 4px; padding: 10px; }
 
 pre code { overflow-wrap: normal; white-space: pre; }
 
@@ -118,7 +118,7 @@ blockquote p { font-size: 0.875rem; padding-top: 10px; padding-bottom: 10px; pad
 
 .postbox { min-height: 80px; }
 
-.paperbox { min-height: 140px; }
+.paperbox { min-height: 50px; }
 
 .projectbox { min-height: 120px; }
 

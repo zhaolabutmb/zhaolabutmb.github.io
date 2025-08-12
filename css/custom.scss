@@ -18,7 +18,7 @@ $navbar-brand-padding-y: 0.0rem;
 $navbar-light-color: $gray-light;
 $navbar-padding-y: 0.0rem;
 $nav-pills-link-active-color: #555;
-$nav-pills-link-active-bg: #000066;
+$nav-pills-link-active-bg: #094ba1;
 $nav-pills-border-radius: 0px;
 
 h1, .h1 { font-size: floor($font-size-base * 2.50); } /* ~34px */
@@ -118,8 +118,8 @@ b, strong {
 }
 
 .bg-navbar {
-  background: #000099;
-  border-bottom: 1px solid #000066;
+  background: #0e53aa;
+  border-bottom: 1px solid #0c4792;
 }
 
 .nav-brand a {
@@ -241,7 +241,7 @@ a.off {
 
 pre {
     overflow-x: auto;
-    border: 1px solid #000066;
+    border: 1px solid #1919a3;
     border-radius: 4px;
     padding: 10px;
 }
@@ -307,7 +307,7 @@ blockquote {
 }
 
 .paperbox {
-	min-height: 140px;
+	min-height: 50px;
 }
 
 .projectbox {
