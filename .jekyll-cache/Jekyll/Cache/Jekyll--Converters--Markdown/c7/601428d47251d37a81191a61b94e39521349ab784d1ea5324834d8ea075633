@@ -1,12 +1,0 @@
-I"<h1 id="abstract">Abstract</h1>
-<p>Histone proteins are essential for the organization, expression,
-and inheritance of genetic material for eukaryotic cells. A centromere-specific
-H3 histone variant, centromere protein A (CENP-A), shares about 50% amino
-acid sequence identity with H3. CENP-A is required for packaging the
-centromere and for the proper separation of chromosomes during mitosis.
-Despite their distinct biological functions, previously reported crystal
-structures of the CENP-A/H4 and H3/H4 dimers reveal a high degree of
-similarity. In this work, we characterize the structural dynamics of CENP-A/
-H4 and H3/H4 dimers based on a dual-resolution approach, using both
-microsecond-scale explicit-solvent all-atom and coarse-grained (CG) molecular dynamics (MD) simulations. Our data show that the H4 histone is significantly more rigid compared with the H3 histone and its variant CENP-A, hence, serving as a reinforcing structural element within the histone core. We report that the CENP-A/H4 dimer is significantly more dynamic than its canonical counterpart H3/H4, and our results provide a physical explanation for this flexibility. Further, we observe that the centromere-specific chaperone Holliday Junction Recognition Protein (HJURP) stabilizes the CENP-A/H4 dimer by forming a specific electrostatic interaction network. Finally, replacing CENP-A S68 with E68 disrupts the binding interface between CENP- A and HJURP in all-atom MD simulation, and consistently, in vivo experiments demonstrate that replacing CENP-A S68 with E68 disrupts CENP-A’s localization to the centromere. Based on all our results, we propose that, during the CENP-A/H4 deposition process, the chaperone HJURP protects various substructures of the dimer, serving both as a folding and binding chaperone.</p>
-:ET
