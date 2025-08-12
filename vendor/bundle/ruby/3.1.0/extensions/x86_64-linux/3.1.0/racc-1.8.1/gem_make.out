@@ -1,0 +1,15 @@
+current directory: /home/hazhao/zhaolabutmb.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/home/hazhao/.rbenv/versions/3.1.2/bin/ruby -I /home/hazhao/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20250812-3928510-s1x574.rb extconf.rb
+creating Makefile
+
+current directory: /home/hazhao/zhaolabutmb.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /home/hazhao/zhaolabutmb.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/hazhao/zhaolabutmb.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20250812-3928510-naovvr/racc

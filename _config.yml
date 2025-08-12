@@ -45,6 +45,8 @@ exclude:
   - "*.zip"
   - "Gemfile"
   - "Gemfile.lock"
+  - vendor/
+  - vendor/**/*
 
 projects:
   - ex

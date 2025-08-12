@@ -1,0 +1,22 @@
+current directory: /home/hazhao/zhaolabutmb.github.io/vendor/bundle/ruby/3.1.0/gems/json-2.13.2/ext/json/ext/parser
+/home/hazhao/.rbenv/versions/3.1.2/bin/ruby -I /home/hazhao/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20250812-3928510-lqge0p.rb extconf.rb
+checking for rb_enc_interned_str() in ruby/encoding.h... yes
+checking for rb_hash_new_capa() in ruby.h... no
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+checking for x86intrin.h... yes
+checking for cpuid.h... yes
+creating Makefile
+
+current directory: /home/hazhao/zhaolabutmb.github.io/vendor/bundle/ruby/3.1.0/gems/json-2.13.2/ext/json/ext/parser
+make DESTDIR\= clean
+
+current directory: /home/hazhao/zhaolabutmb.github.io/vendor/bundle/ruby/3.1.0/gems/json-2.13.2/ext/json/ext/parser
+make DESTDIR\=
+compiling parser.c
+linking shared-object json/ext/parser.so
+
+current directory: /home/hazhao/zhaolabutmb.github.io/vendor/bundle/ruby/3.1.0/gems/json-2.13.2/ext/json/ext/parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 parser.so ./.gem.20250812-3928510-22m7w/json/ext

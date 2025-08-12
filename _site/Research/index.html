@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>ZhaoLab/Research</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- RSS feed -->
+	<link rel="alternate" type="application/rss+xml" title="Zhao Lab Website" href="http://localhost:4000/feed.xml">
+
+  <!-- Customized Bootstrap + Font Awesome + Solarized -->
+  <link href="/css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/utmb_logo_red.png"/>
+
+	<!-- Typekit -->
+	<script>
+	  (function(d) {
+		var config = {
+		  kitId: 'xeu8jut',
+		  scriptTimeout: 3000
+		},
+		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	  })(document);
+	</script>
+
+	<!-- Google tag (gtag.js); in 20250808, updated to GA4 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-472R9QJ80N"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'G-472R9QJ80N');
+	</script>
+
+	<!-- jQuery -->
+	<script src="/js/jquery.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/collapse.js"></script>
+
+</head>
+
+<body>
+
+	<div id="header">
+		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" style="height: 46px; width: auto;" src="/images/utmb_logo_red.png">
+					Zhao Lab @UTMB
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
+
+						
+						<li class="nav-link active">
+						
+						<a class="mx-1" href="/Research/">Research</a></li>
+
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/Papers/">Papers</a></li>
+
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/News/">News</a></li>
+
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/Team/">Team</a></li>
+
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container mt-4">
+
+	<!-- first direction or project --> 
+
+    <h1>Multi-level Studies of Protein-Protein Interactions</h1>
+    <hr style="height:3px;border:none;color:#777786;background-color:#808088;" />
+<!--     <img src="/images/Picture1.png" style="float:right"> --> 
+    <p>
+      <h4>Protein Systems Biology</h4>
+      In biology, proteins function in coordinated teams through various pathways. 
+      Knowing protein-protein interactions (PPIs) on the genome-wide scale is crucial for understanding their cellular functions which may further help with disease mechanisms. 
+      Recent advances in deep learning (DL) and Artificial Intelligence (AI) have shown remarkable potential in predicting PPI structures with accuracy. 
+      These approaches harness vast datasets and sophisticated algorithms to infer interactions, offering valuable insights into the molecular basis of biological processes. 
+      However, a major challenge lies in managing the immense computational demands of genome-wide predictions. 
+      Achieving a balance between computational efficiency and predictive accuracy—particularly for dynamic and modified protein regions—remains a critical area for future developments.
+    </p>
+    <p>
+      Building on our previous works, <i>PrePPI-AF</i> and <i>ZEPPI</i>, we leverage the state-of-the-art DL/AI models to construct the comprehensive structure-based PPI database. 
+      Using this methodology, we focus on predicting the <b>Host-Pathogen Interactome</b>. 
+      We hope to unravel the molecular basis that underpin infectious diseases, enabling the development of targeted therapies, vaccines, and strategies to combat existing and emerging pathogens. 
+      Ongoing projects include taxoplasma and malaria.
+    </p>
+
+      <h4>Multi-omics Integration</h4>
+    <p>
+      In recent decades, biotechnology has produced a wide array of omics data — including single-cell RNA sequencing and mass spectrometry–based proteomics — offering a rich resource for data-driven research. 
+      In our lab, centering on predicted millions of protein–protein interactions and their interaction networks, we integrate additional omics datasets to uncover cell-specific protein–protein networks and track their evolution over time, potentially revealing disease mechanisms. 
+      Current research includes the study of liver diseases and collaboration projects on neurological diseases. 
+     We seek to train <b>one graduate student</b> (biology or medical science background) on this exciting direction. 
+    </p>
+      <h4>Protein Dynamics and Protein Design</h4>
+    <p>
+    Moreover, with millions of predicted PPIs, we aim to explore the complex networks these proteins form, with the goal of identifying novel pathways and gaining a more comprehensive understanding of protein functions. 
+    Once specific target PPIs are identified, we are further interested in studying their binding dynamics and energetics, with the goal of designing optimized binders and small molecule inhibitors.
+
+      We are seeking <b>one graduate student</b> (any physical/life sciences background) to join us in this exciting direction. 
+    </p>  
+    
+     <div class="bigspacer"></div>
+
+<!-- second direction or project --> 
+
+    <h1>Predicting Protein Binding Affinity and Their Changes</h1>
+    <hr style="height:3px;border:none;color:#808088;background-color:#808088;" />
+
+    <p>
+    Calculating protein binding free energy <i>in silico</i> remains challenging. 
+    Molecular dynamics-based methods often struggle with the complexity introduced by protein conformational flexibility, in addition to the computation demands required for accurate simulations. 
+    Recently, machine learning approaches have emerged as promising alternatives, either by fitting structural data to regression models or by developing DL/AI models based solely on sequence information.
+    </p>
+    <p>
+    Our goal is to create a general and widely applicable machine learning model to predict binding affinities. 
+    Specifically, we are building a transferable, attention-based deep learning model that incorporates both structural features of protein complexes and sequence-derived data. 
+    We aim to extend this model to predict changes in binding free energy due to mutations, interactions with small molecules, or post-translational modifications, providing a versatile tool for a range of biological applications.
+    </p>
+    We are currently seeking <b>one graduate student</b> (chemistry or physics background) for this exciting direction. 
+     <div class="bigspacer"></div>
+
+      We are always excited to collaborate with experimental groups and explore new scientific frontiers together.
+
+     <div class="bigspacer"></div>
+
+ <div class="hugespacer"></div>
+ <div class="hugespacer"></div>
+
+
+
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
