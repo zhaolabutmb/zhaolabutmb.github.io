@@ -9,7 +9,7 @@ layout: default
 		<div class="media">
 			{% if member.image %}
             <div class="col-md-3">
-            <img class="pull-left pad-right media-object" width=120 src="{{ member.image }}">
+            <img class="pull-left pad-right media-object" profile-pic src="{{ member.image }}">
             </div>
             {% endif %}
 			<div class="media-body titlebox">
@@ -28,7 +28,8 @@ layout: default
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-3">  			
+	<div class="col-md-3">  
+
 		{% if member.cv %}		
 		<div class="smallhead">
 			CV
@@ -40,7 +41,8 @@ layout: default
 			<a class="off" href="{{ member.cv }}"> pdf</a>
 		</div>		
 		<div class="bigspacer"></div>		
-		{% endif %}	  		
+		{% endif %}	 	
+
 		{% if member.twitter %}		
 		<div class="smallhead">
 			Twitter
@@ -52,6 +54,7 @@ layout: default
 		</div>		
 		<div class="bigspacer"></div>				
 		{% endif %}	
+
 		{% if member.github %}
 		<div class="smallhead">
 			GitHub
