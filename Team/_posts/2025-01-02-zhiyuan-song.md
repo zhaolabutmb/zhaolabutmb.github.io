@@ -5,7 +5,7 @@ position: Postdoc Fellow
 image: /images/team/ZhiyuanSong.jpg
 email: zhisong@utmb.edu
 orcid: https://orcid.org/0000-0003-3556-8205
-github: https://github.com/songzhihenry
+github: songzhihenry
 email: zhisong@UTMB.EDU
 workspace: 5.416, Research Building 6
 ---
