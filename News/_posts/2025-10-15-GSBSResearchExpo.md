@@ -3,7 +3,7 @@ layout: post
 title: 2025 GSBS Research Expo *
 date: 2025-10-15
 image: /images/news/202510_GSBSexpo1.jpg
-image1: /images/news/202510_GSBSexpo2.jpg
+image2: /images/news/202510_GSBSexpo2.jpg
 
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: 35th Keck Annual Conference *
 date: 2025-10-25
 image: /images/news/202510_KeckAnnual1.jpg
-image1: /images/news/202510_KeckAnnual2.jpg
+image2: /images/news/202510_KeckAnnual2.jpg
 
 ---
 

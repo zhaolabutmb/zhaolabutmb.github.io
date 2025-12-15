@@ -2,8 +2,8 @@
 layout: post
 title: Lab Sunset Dinner *
 date: 2025-11-10
-image: /images/news/202511_LabDinner1.jpeg
-image1: /images/news/202511_LabDinner2.jpeg
+image: /images/news/202511_LabDinner1.jpg
+image1: /images/news/202511_LabDinner2.jpg
 
 ---
 
