@@ -5,7 +5,7 @@ position: Assistant Professor
 image: /images/team/HaiqingZhao.jpg
 scholar: ui13duUAAAAJ
 website: https://zhaolabutmb.github.io
-cv: /pdfs/team/CV202409_HZ.pdf
+cv: /pdfs/team/CV202511_HZ.pdf
 orcid: 0000-0003-1168-5730
 email: hazhao@UTMB.EDU
 workspace: 5.222, Research Building 6
