@@ -44,32 +44,35 @@ categories:
 <div class="row">
 
 	<!-- first column -->
-	<div class="col-md-4">
-		<div class="head">
-				Pinned posts
-		</div>
-		<div class="spacer"></div>
+<div class="col-md-4">
+  <div class="head">
+    Pinned posts
+  </div>
+  <div class="spacer"></div>
 
-		<div class="feedbox">
-			{% for post in site.categories.News limit:2 %}
+  <div class="feedbox">
+    {% assign pinned_posts = site.categories.News
+      | where_exp: "post", "post.path contains '_pinned'" %}
 
-					<div class="note">
-						<i class="fa fa-bullhorn fa-fw"></i>
-						<a class="off" href="{{ post.url }}">
-						{{ post.title }}
-						</a>
-					</div>
-					<div class="smallspacer"></div>
-					<div class="smallnote">
-						Pinned
-						{{ post.date | date: "%b %-d, %Y" }}
-					</div>
-					<div class="bigspacer"></div>
+    {% for post in pinned_posts limit:2 %}
+      <div class="note">
+        <i class="fa fa-bullhorn fa-fw"></i>
+        <a class="off" href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </div>
 
-			{% endfor %}
-		</div>
-	</div>
-	<div class="spacer"></div>
+      <div class="smallspacer"></div>
+
+      <div class="smallnote">
+        Pinned · {{ post.date | date: "%b %-d, %Y" }}
+      </div>
+
+      <div class="bigspacer"></div>
+    {% endfor %}
+  </div>
+</div>
+<div class="spacer"></div>
 
 	<!-- second column -->
 	<div class="col-md-4">
