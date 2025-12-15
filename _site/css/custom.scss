@@ -116,6 +116,11 @@ b, strong {
 	font-weight: 300;
 	/* Museo */
 }
+/* logo height cap */
+.navbar-logo {
+  height: 56px;         /* adjust 48–64 */
+  width: auto;
+}
 
 .bg-navbar {
   background: #0e53aa;

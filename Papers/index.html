@@ -11,10 +11,10 @@ categories:
 
 {% assign papers_sorted = site.categories.Papers | sort: "date" | reverse %}
 
-<h2>2024 and after</h2>
+<h2>2025</h2>
 {% for paper in papers_sorted %}
   {% assign year = paper.date | date: "%Y" | plus: 0 %}
-  {% if year >= 2024 %}
+  {% if year == 2025 %}
 	<!--
     {%- assign ref_html = paper.ref -%}
     {%- assign my_names = "Haiqing Zhao|Zhiyuan Song|Ziyu Shi" | split: "|" -%}
@@ -23,7 +23,36 @@ categories:
       {%- assign ref_html = ref_html | replace: n, repl -%}
     {%- endfor -%}
 	-->
+    <div class="col-md-12 paperbox">
+      <div class="off">
+        <a class="pull-right" href="{{ paper.url }}">
+          <img width="10" class="media-object" src="{{ paper.image }}">
+        </a>
+        <div class="media-body">
+          <div class="smallhead media-heading">
+            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+          </div>
+        <!--  <a href="{{ paper.url }}"> -->
+            <p class="off">{{ ref_html }}</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
 
+<h2>2024</h2>
+{% for paper in papers_sorted %}
+  {% assign year = paper.date | date: "%Y" | plus: 0 %}
+  {% if year == 2024 %}
+	<!--
+    {%- assign ref_html = paper.ref -%}
+    {%- assign my_names = "Haiqing Zhao|Zhiyuan Song|Ziyu Shi" | split: "|" -%}
+    {%- for n in my_names -%}
+      {%- capture repl -%}<strong class="me">{{ n }}</strong>{%- endcapture -%}
+      {%- assign ref_html = ref_html | replace: n, repl -%}
+    {%- endfor -%}
+	-->
     <div class="col-md-12 paperbox">
       <div class="off">
         <a class="pull-right" href="{{ paper.url }}">

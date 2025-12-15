@@ -12,8 +12,6 @@
   <!-- Customized Bootstrap + Font Awesome + Solarized -->
   <link href="/css/style.css" rel="stylesheet" media="screen">
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/utmb_logo_red.png"/>
 
 	<!-- Typekit -->
 	<script>
@@ -48,16 +46,31 @@
 <body>
 
 	<div id="header">
-		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
+		<nav class="navbar navbar-expand-md navbar-light bg-navbar py-1">
 			<div class="container">
 				{% if page.categories.first != 'home' %}
-				<a class="navbar-brand" href="/">
-					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" style="height: 46px; width: auto;" src="/images/utmb_logo_red.png">
-					Zhao Lab @UTMB
-				</a>
+				<div class="navbar-brand d-flex align-items-center p-0">
+				  <!-- UTMB logo → UTMB website -->
+				  <a href="https://www.utmb.edu"
+				     target="_blank"
+				     rel="noopener"
+				     class="mr-2">
+				    <img src="/images/UTMB_newlogo_Shield.png"
+			         style="height:80px; width:auto;"
+			         alt="UTMB">
+				  </a>
+
+				  <!-- Lab name → site home -->
+				  <a href="/" class="text-white text-decoration-none">
+				    Zhao Lab @UTMB
+				  </a>
+				</div>
+
 				{% else %}
-				<a class="navbar-brand" href="/">
-					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" style="height: 64px; width: auto;" src="/images/utmb_logo_red.png">
+				<a class="navbar-brand d-flex align-items-center p-0" href="https://www.utmb.edu"
+				     target="_blank">
+					  <img src="/images/UTMB_newlogo_darkback.png"
+    				   style="height:80px; width:auto;">
 				</a>
 				{% endif %}
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -50,6 +50,9 @@ b, strong { font-weight: bold; }
 
 .navbar-text { font-size: 15px; font-weight: 300; /* Museo */ }
 
+/* logo height cap */
+.navbar-logo { height: 56px; /* adjust 48–64 */ width: auto; }
+
 .bg-navbar { background: #0e53aa; border-bottom: 1px solid #0c4792; }
 
 .nav-brand a { color: #555; }

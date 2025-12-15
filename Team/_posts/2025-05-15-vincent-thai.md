@@ -4,7 +4,6 @@ title: Vincent Thai
 position: Undergraduate Intern
 image: /images/team/VincentThai.jpeg
 email: vincentthai247@gmail.com
-workspace: 5.416, Research Building 6
 alumni: true
 
 ---
