@@ -5,24 +5,53 @@ categories:
  - Papers
 ---
 
-<left>Selected publications are listed. Please see <a href="https://scholar.google.com/citations?hl=en&user=ui13duUAAAAJ">Google Scholar</a> for more.</center>
 
-<div class="hugespacer"></div>
+<div class="spacer"></div>
 
 {% assign papers_sorted = site.categories.Papers | sort: "date" | reverse %}
 
-<h2>2025</h2>
+{% assign max_year = 0 %}
 {% for paper in papers_sorted %}
   {% assign year = paper.date | date: "%Y" | plus: 0 %}
-  {% if year == 2025 %}
-	<!--
-    {%- assign ref_html = paper.ref -%}
-    {%- assign my_names = "Haiqing Zhao|Zhiyuan Song|Ziyu Shi" | split: "|" -%}
-    {%- for n in my_names -%}
-      {%- capture repl -%}<strong class="me">{{ n }}</strong>{%- endcapture -%}
-      {%- assign ref_html = ref_html | replace: n, repl -%}
-    {%- endfor -%}
-	-->
+  {% if year > max_year %}
+    {% assign max_year = year %}
+  {% endif %}
+{% endfor %}
+
+{% for y in (2022..max_year) reversed %}
+  {% if y > 2022 %}
+    <h2>{{ y }}</h2>
+  {% else %}
+    <h2>2022 and before</h2>
+  {% endif %}
+  {% for paper in papers_sorted %}
+    {% assign year = paper.date | date: "%Y" | plus: 0 %}
+    {% if y > 2022 %}
+      {% if year == y %}
+
+{%- capture ref_html -%}
+{%- assign my_names = site.categories.Team | map: "title" -%}
+{%- assign authors_list = paper.authors | split: ", " -%}
+{%- for author in authors_list -%}
+  {%- assign clean_author = author | replace: "*", "" | replace: "+", "" | strip -%}
+  {%- assign name_parts = clean_author | split: " " -%}
+  {%- assign last_name = name_parts | last -%}
+  {%- assign first_initial = name_parts | first | slice: 0 -%}
+  {%- assign formatted_author = last_name | append: " " | append: first_initial -%}
+  {%- if author contains "*" -%}
+    {%- assign formatted_author = formatted_author | append: "*" -%}
+  {%- endif -%}
+  {%- if author contains "+" -%}
+    {%- assign formatted_author = formatted_author | append: "<sup>[+]</sup>" -%}
+  {%- endif -%}
+  {%- if my_names contains clean_author -%}
+    {%- capture formatted_author -%}<strong class="me">{{ formatted_author }}</strong>{%- endcapture -%}
+  {%- endif -%}
+  {{ formatted_author }}{%- unless forloop.last -%}, {% endunless -%}
+{%- endfor -%}
+. ({{ paper.year }}) {{ paper.title }}. <a href="https://doi.org/{{ paper.doi }}"><em>{{ paper.journal }}</em></a>. [<a href="{{ paper.pdf }}">PDF</a>]
+{%- endcapture -%}
+
     <div class="col-md-12 paperbox">
       <div class="off">
         <a class="pull-right" href="{{ paper.url }}">
@@ -38,21 +67,33 @@ categories:
         </div>
       </div>
     </div>
-  {% endif %}
-{% endfor %}
+      {% endif %}
+    {% else %}
+      {% if year <= 2022 %}
 
-<h2>2024</h2>
-{% for paper in papers_sorted %}
-  {% assign year = paper.date | date: "%Y" | plus: 0 %}
-  {% if year == 2024 %}
-	<!--
-    {%- assign ref_html = paper.ref -%}
-    {%- assign my_names = "Haiqing Zhao|Zhiyuan Song|Ziyu Shi" | split: "|" -%}
-    {%- for n in my_names -%}
-      {%- capture repl -%}<strong class="me">{{ n }}</strong>{%- endcapture -%}
-      {%- assign ref_html = ref_html | replace: n, repl -%}
-    {%- endfor -%}
-	-->
+{%- capture ref_html -%}
+{%- assign my_names = site.categories.Team | map: "title" -%}
+{%- assign authors_list = paper.authors | split: ", " -%}
+{%- for author in authors_list -%}
+  {%- assign clean_author = author | replace: "*", "" | replace: "+", "" | strip -%}
+  {%- assign name_parts = clean_author | split: " " -%}
+  {%- assign last_name = name_parts | last -%}
+  {%- assign first_initial = name_parts | first | slice: 0 -%}
+  {%- assign formatted_author = last_name | append: " " | append: first_initial -%}
+  {%- if author contains "*" -%}
+    {%- assign formatted_author = formatted_author | append: "*" -%}
+  {%- endif -%}
+  {%- if author contains "+" -%}
+    {%- assign formatted_author = formatted_author | append: "<sup>[+]</sup>" -%}
+  {%- endif -%}
+  {%- if my_names contains clean_author -%}
+    {%- capture formatted_author -%}<strong class="me">{{ formatted_author }}</strong>{%- endcapture -%}
+  {%- endif -%}
+  {{ formatted_author }}{%- unless forloop.last -%}, {% endunless -%}
+{%- endfor -%}
+. ({{ paper.year }}) {{ paper.title }}. <a href="https://doi.org/{{ paper.doi }}"><em>{{ paper.journal }}</em></a>. [<a href="{{ paper.pdf }}">PDF</a>]
+{%- endcapture -%}
+
     <div class="col-md-12 paperbox">
       <div class="off">
         <a class="pull-right" href="{{ paper.url }}">
@@ -68,39 +109,11 @@ categories:
         </div>
       </div>
     </div>
-  {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 {% endfor %}
 
-<h2>2023 and before</h2>
-{% for paper in papers_sorted %}
-  {% assign year = paper.date | date: "%Y" | plus: 0 %}
-  {% if year <= 2023 %}
-	<!--
-    {%- assign ref_html = paper.ref -%}
-    {%- assign my_names = "Haiqing Zhao|Zhiyuan Song|Ziyu Shi" | split: "|" -%}
-    {%- for n in my_names -%}
-      {%- capture repl -%}<strong class="me">{{ n }}</strong>{%- endcapture -%}
-      {%- assign ref_html = ref_html | replace: n, repl -%}
-    {%- endfor -%}
-	-->
-    <div class="col-md-12 paperbox">
-      <div class="off">
-        <a class="pull-right" href="{{ paper.url }}">
-          <img width="10" class="media-object" src="{{ paper.image }}">
-        </a>
-        <div class="media-body">
-          <div class="smallhead media-heading">
-            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
-          </div>
-        <!--  <a href="{{ paper.url }}"> -->
-            <p class="off">{{ ref_html  }}</p>
+<left>For full publication list, please see <a href="https://scholar.google.com/citations?hl=en&user=ui13duUAAAAJ">Google Scholar</a> for more.</center>
 
-
-          </a>
-        </div>
-      </div>
-    </div>
-  {% endif %}
-{% endfor %}
-
-
+<div class="hugespacer"></div>

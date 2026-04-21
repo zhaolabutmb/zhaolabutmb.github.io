@@ -7,8 +7,8 @@ year: 2021
 ref: Haiqing Zhao, 2021, Biophysical Journal
 journal: Biophysical Journal
 pdf: https://www.cell.com/action/showPdf?pii=S0006-3495%2821%2900115-6
-doi: 
+doi: 10.1016/j.bpj.2021.02.001
 ---
 
 # Abstract
-A short commentary review on modeling the self-assembly process of bacterial nucleoid proteins and their DNAs.
+A commentary review on modeling the self-assembly process of bacterial nucleoid proteins and their DNAs.

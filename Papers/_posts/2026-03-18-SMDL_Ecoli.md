@@ -3,12 +3,12 @@ layout: paper
 title: "Combining Structural Modeling and Deep Learning to Calculate the E. coli Protein Interactome and Functional Networks"
 image: 
 authors: Haiqing Zhao, Caroline Velez, Anekit Navarene, Aakash Saha,Jonathan Feldman, Jeffrey Skolnick, Diana Murray, Barry Honig
-year: 2025
-ref: Haiqing Zhao, Caroline Velez, Anekit Navarene, Aakash Saha, Jonathan Feldman, Jeffrey Skolnick, Diana Murray, Barry Honig, 2025, Nature Communications (under revision)
-journal: Nature Communications (under revision)
-pdf: https://www.biorxiv.org/content/10.1101/2025.05.07.652715v1.full.pdf
+year: 2026
+ref: Haiqing Zhao, Caroline Velez, Anekit Navarene, Aakash Saha, Jonathan Feldman, Jeffrey Skolnick, Diana Murray, Barry Honig, 2025, Nature Communications 
+journal: Nature Communications
+pdf: https://www.nature.com/articles/s41467-026-71166-9_reference.pdf
 doi: doi.org/XXXX
-github: 
+github: https://github.com/haiqingzhao/BayesianModel-for-Ecoli-PPI
 ---
 
 # Abstract

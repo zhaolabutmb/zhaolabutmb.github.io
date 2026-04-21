@@ -3,11 +3,11 @@
 
 <head>
 	<meta charset="utf-8"/>
-	<title>Learning Biophysical Dynamics with Protein Language Models</title>
+	<title>Protein Language Models Trained on Biophysical Dynamics Inform Mutation Effects</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- RSS feed -->
-	<link rel="alternate" type="application/rss+xml" title="Zhao Lab Website" href="https://zhaolabutmb.github.io//feed.xml">
+	<link rel="alternate" type="application/rss+xml" title="Zhao Lab Website" href="http://localhost:4000/feed.xml">
 
   <!-- Customized Bootstrap + Font Awesome + Solarized -->
   <link href="/css/style.css" rel="stylesheet" media="screen">
@@ -56,7 +56,7 @@
 				     rel="noopener"
 				     class="mr-2">
 				    <img src="/images/UTMB_newlogo_Shield.png"
-			         style="height:80px; width:auto;"
+			        style="height:72px; width:auto;"
 			         alt="UTMB">
 				  </a>
 
@@ -107,14 +107,14 @@
 		
 		<div class="titlebox">
 			<div class="title">
-				Learning Biophysical Dynamics with Protein Language Models
+				Protein Language Models Trained on Biophysical Dynamics Inform Mutation Effects
 			</div>
 			<p>
 			<div class="smallhead">
 
 				Chao Hou, Haiqing Zhao, Yufeng Shen
-				2025.
-				Proceedings of the National Academy of Sciences (under revision)
+				2026.
+				Proceedings of the National Academy of Sciences
 			</div>
 
 
@@ -135,7 +135,7 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="https://www.biorxiv.org/content/10.1101/2024.10.11.617911v4.full.pdf">2024.10.11.617911v4.full.pdf</a>
+				<a class="off" href="https://www.pnas.org/doi/epdf/10.1073/pnas.2530466123">pnas.2530466123</a>
 			</div>
 			<div class="bigspacer"></div>
 			
@@ -147,10 +147,20 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="https://doi.org/doi.org/XXXX">doi.org/XXXX</a>
+				<a class="off" href="https://doi.org/10.1073/pnas.2530466123">10.1073/pnas.2530466123</a>
 			</div>
 			<div class="bigspacer"></div>
 			
+			
+			<div class="smallhead">
+				GitHub
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-github-alt fa-fw"></i>
+				<a class="off" href="https://github.com/ShenLab/SeqDance">ShenLab/<wbr>SeqDance</a>
+			</div>
+			<div class="bigspacer"></div>
 			
 			
 		</div>
@@ -158,7 +168,7 @@
 	<div class="col-lg-8">
 		<div class="post">
 			<h1 id="abstract">Abstract</h1>
-<p>Structural dynamics are fundamental to protein functions and mutation effects. Current protein deep learning models are predominantly trained on sequence and/or static structure data, which often fail to capture the dynamic nature of proteins. To address this, we introduce SeqDance and ESMDance, two protein language models trained on dynamic biophysical properties derived from molecular dynamics simulations and normal mode analyses of over 64,000 proteins. SeqDance, trained from scratch, learns both local dynamic interactions and global conformational properties for ordered and disordered proteins. SeqDance predicted dynamic property changes reflect mutation effect on protein folding stability. ESMDance, built upon ESM2 outputs, substantially outperforms ESM2 in zero-shot prediction of mutation effects for designed and viral proteins which lack evolutionary information. Together, SeqDance and ESMDance offer a new framework for integrating protein dynamics into language models, enabling more generalizable predictions of protein behavior and mutation effects.</p>
+<p>Structural dynamics are fundamental to protein functions and mutation effects. Currentprotein deep learning models are predominantly trained on sequence and/or static struc-ture data, which often fail to capture the dynamic nature of proteins. To address this, weintroduce SeqDance and ESMDance, two protein language models trained on dynamicbiophysical properties derived from molecular dynamics simulations and normal modeanalyses of over 64,000 proteins. Both models can be directly applied to predict dynamicproperties of unseen ordered and disordered proteins. SeqDance, trained from scratch,has attentions that capture dynamic interaction and comovement between residues, andits embeddings encode rich representations of protein dynamics that can be further uti-lized to predict conformational properties beyond the training tasks via transfer learning.SeqDance predicted dynamic property changes reflect mutation effect on protein foldingstability. ESMDance, built upon ESM2 (Evolutionary Scale Model II) outputs, substan-tially outperforms ESM2 in zero-shot prediction of mutation effects for designed andviral proteins which lack evolutionary information. Together, SeqDance and ESMDanceoffer a framework for integrating protein dynamics into language models, enabling moregeneralizable predictions of protein behavior and mutation effects.</p>
 
 		</div>
 	</div>

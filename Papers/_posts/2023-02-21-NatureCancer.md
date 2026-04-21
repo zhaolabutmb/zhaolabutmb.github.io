@@ -7,7 +7,7 @@ year: 2023
 ref: Zhenyi Su, Ning Kon, Jingjie Yi, Haiqing Zhao, Wanwei Zhang, Qiaosi Tang, Huan Li, Hiroki Kobayashi5, Zhiming Li, Shoufu Duan, Yanqing Liu, Kenneth P. Olive, Zhiguo Zhang, Barry Honig, James J. Manfredi, Anil K. Rustgi, Wei Gu, 2023, Nature Cancer
 journal: Nature Cancer
 pdf: /pdfs/papers/2023_natureCancer.pdf
-doi: doi.org/10.1038/s43018-023-00532-z
+doi: 10.1038/s43018-023-00532-z
 ---
 
 # Abstract
