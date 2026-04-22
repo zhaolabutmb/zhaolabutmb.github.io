@@ -1,9 +1,10 @@
 ---
 layout: member
 title: Lauren Gansereit
-position: PhD Student (rotation, co-mentee)
+position: PhD Student (rotation)
 image: /images/team/LaurenGansereit.jpeg
 email: laganser@utmb.edu
+alumni: true
 
 ---
 
