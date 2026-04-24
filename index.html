@@ -50,7 +50,7 @@ categories:
     Pinboard
   </div>
   <div class="spacer"></div>
-	<strong><span style="font-family: 'Georgia', serif; color: grey;">[* Click for Pictures]</span></strong>
+	<strong><span style="font-family: 'Georgia', serif; color: grey;">[*: Click for Pictures]</span></strong>
 
   <div class="feedbox">
     {% assign pinned_posts = site.categories.News
@@ -70,7 +70,7 @@ categories:
         {{ post.date | date: "%b %-d, %Y" }}
       </div>
 
-      <div class="bigspacer"></div>
+      <div class="hugespacer"></div>
     {% endfor %}
   </div>
 </div>
@@ -86,7 +86,7 @@ categories:
 		</div>
 		<div class="spacer"></div>
 
-		<strong><span style="font-family: 'Georgia', serif; color: grey;">[* Click for Pictures]</span></strong>
+		<strong><span style="font-family: 'Georgia', serif; color: grey;">[*: Click for Pictures]</span></strong>
 		<div class="feedbox">
 
 			{% for post in site.categories.News limit: 3 %}
