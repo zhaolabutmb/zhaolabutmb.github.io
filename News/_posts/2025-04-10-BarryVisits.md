@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dr. Barry Honig Visits *
+title: Dr. Barry Honig Visits <i class="fa-camera_title"></i>
 date: 2025-04-10
 image: /images/news/BarryVisit_1.jpg
 image2: /images/news/BarryVisit_2.jpg

@@ -50,7 +50,8 @@ categories:
     Pinboard
   </div>
   <div class="spacer"></div>
-	<strong><span style="font-family: 'Georgia', serif; color: grey;">[*: Click for Pictures]</span></strong>
+	<strong><span style="font-family: 'Georgia', serif; color: grey; font-size: 15px;">
+	[<i class="fa fa-camera fa-fw"></i>: Click for Pictures]</span></strong>
 
   <div class="feedbox">
     {% assign pinned_posts = site.categories.News
@@ -58,7 +59,7 @@ categories:
 
     {% for post in pinned_posts limit:2 %}
       <div class="note">
-        <i class="fa fa-bullhorn fa-fw"></i>
+        <i class="fa fa-thumb-tack fa-fw"></i>
         <a class="off" href="{{ post.url }}">
           {{ post.title }}
         </a>
@@ -86,7 +87,8 @@ categories:
 		</div>
 		<div class="spacer"></div>
 
-		<strong><span style="font-family: 'Georgia', serif; color: grey;">[*: Click for Pictures]</span></strong>
+		<strong><span style="font-family: 'Georgia', serif; color: grey; font-size: 15px;">
+		[<i class="fa fa-camera fa-fw"></i>: Click for Pictures]</span></strong>
 		<div class="feedbox">
 
 			{% for post in site.categories.News limit: 3 %}

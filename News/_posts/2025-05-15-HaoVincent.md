@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome Hao and Vincent *
+title: Welcome Hao and Vincent <i class="fa-camera_title"></i>
 date: 2025-05-15
 image: /images/news/LunchforHao.jpg
 

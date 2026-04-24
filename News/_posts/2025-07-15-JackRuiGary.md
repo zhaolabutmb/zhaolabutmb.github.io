@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome Raymond, Jack, Rui and Gary *
+title: Welcome Raymond, Jack, Rui and Gary <i class="fa-camera_title"></i>
 date: 2025-07-20
 image: /images/news/DinnerforRui.jpg
 

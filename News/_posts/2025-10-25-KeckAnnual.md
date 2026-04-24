@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 35th Keck Annual Conference *
+title: 35th Keck Annual Conference <i class="fa-camera_title"></i>
 date: 2025-10-25
 image: /images/news/202510_KeckAnnual1.jpg
 image2: /images/news/202510_KeckAnnual2.jpg

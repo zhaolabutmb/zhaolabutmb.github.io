@@ -47,7 +47,13 @@ h6, .h6 { font-size: ceil($font-size-base * 0.85); }  /* ~12px */
 	visibility: visible;
 }
 
-/* general */
+/* general for title*/
+.fa-camera_title {
+  @extend .fa;
+  @extend .fa-camera;
+  @extend .fa-fw;
+  font-size: 0.8em !important;
+}
 
 .container {
   padding-left: 25px;

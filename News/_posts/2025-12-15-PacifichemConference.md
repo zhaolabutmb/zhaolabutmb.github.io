@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Talk at Pacifichem 2025 *
+title: Talk at Pacifichem 2025 <i class="fa-camera_title"></i>
 date: 2025-12-15
 image: /images/news/202512_Pacifichem1.jpg
 image2: /images/news/202512_Pacifichem2.jpg

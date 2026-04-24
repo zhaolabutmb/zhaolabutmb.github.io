@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lab Farewells and New Beginnings *
+title: Lab Farewells and New Beginnings <i class="fa-camera_title"></i>
 date: 2025-08-15
 image: /images/news/202508_CampusFun1.jpeg
 image1: /images/news/202508_CampusFun2.jpeg

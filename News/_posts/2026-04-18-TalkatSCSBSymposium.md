@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Talk at SCSB Annual Symposium *
+title: Talk at SCSB Annual Symposium <i class="fa-camera_title"></i>
 date: 2026-04-18
 image: /images/news/202604_SCSB.jpg
 ---

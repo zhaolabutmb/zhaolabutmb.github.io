@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lab Sunset Dinner *
+title: Lab Sunset Dinner <i class="fa-camera_title"></i>
 date: 2025-11-10
 image: /images/news/202511_LabDinner1.jpg
 image1: /images/news/202511_LabDinner2.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome Zhiyuan, Maria and Ziyu *
+title: Welcome Zhiyuan, Maria and Ziyu <i class="fa-camera_title"></i>
 date: 2025-01-16
 image: /images/news/LunchforZhiyuan.jpg
 ---

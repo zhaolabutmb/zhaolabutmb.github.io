@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UTMB Research Day *
+title: UTMB Research Day <i class="fa-camera_title"></i>
 date: 2025-05-30
 image: /images/news/ResearchDay_1.jpg
 image2: /images/news/ResearchDay_2.jpg
