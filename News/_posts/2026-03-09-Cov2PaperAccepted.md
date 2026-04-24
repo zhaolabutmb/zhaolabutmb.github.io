@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Collaboration Paper Accepted in PLOS Pathogens
+title: Collaboration Paper Accepted in <i>PLOS Pathogens</i>
 date: 2026-03-09
 
 ---

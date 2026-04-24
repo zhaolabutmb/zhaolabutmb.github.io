@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Collaboration paper on SeqDance Accepted in PNAS 
+title: Collaboration paper Accepted in <i>PNAS</i>
 date: 2025-12-31
 
 ---

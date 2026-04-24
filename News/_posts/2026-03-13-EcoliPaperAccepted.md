@@ -1,6 +1,6 @@
 ---
 layout: post
-title: E. coli Paper Accepted in Nature Communications 
+title: "<em>E. coli</em> Paper Accepted in <i>Nature Communications</i>"
 date: 2026-03-13
 
 ---
