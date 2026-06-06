@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Collaboration Paper on Cx36 Accepted
+title: Cx36 Paper was Accepted
+
 date: 2026-06-02
 
 ---
 
-The collaboration paper on the dimerization of Connexin36 was accepted on Communication Biology — read more <a href="/papers/Cx36/">here</a>. Congratulations! 🎉
-
- 
-
+Our collaboration paper on the dimerization of Connexin36 was accepted in Communication Biology (<a href="/papers/Cx36/">paper link</a>). Congratulations! 🎉

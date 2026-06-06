@@ -63,24 +63,24 @@ layout: default
 			{% if page.image %}
 			{% if page.link %}
 			<a href="{{ page.link }}">
-				<img class="offset" src="{{ page.image }}">
+				<img class="offset" src="{{ page.image }}" style="max-width: 500px;">
 			</a>
 			{% else %}
-			<img class="offset" src="{{ page.image }}">
+			<img class="offset" src="{{ page.image }}" style="max-width: 500px;">
 			{% endif %}
 			{% endif %}
 
 			{% if page.image2 %}
 			  {% if page.link2 %}
     			<a href="{{ page.link2 }}">
-      				<img class="offset" src="{{ page.image2 }}">
+      				<img class="offset" src="{{ page.image2 }}" style="max-width: 500px;">
     			</a>
 			{% else %}
-    			<img class="offset" src="{{ page.image2 }}">
-  				{% endif %}
+    			<img class="offset" src="{{ page.image2 }}" style="max-width: 500px;">
+  			{% endif %}
 			{% endif %}
 
-			<div class="post">
+			<div class="post" style="margin-top: 15px;">
 				{{ content }}
 			</div>
 		</div>
