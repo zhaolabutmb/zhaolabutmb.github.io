@@ -7,4 +7,4 @@ image2: /images/news/202510_GSBSexpo2.jpg
 
 ---
 
-The lab attended the GSBS Research Expo with three poster presentations respectively by Zhiyuan, Ziyu and Rui. Notably, this marked Rui’s first poster presentation — congratulations and well done!
+The lab attended the GSBS Research Expo with three poster presentations. Congratulations and well done!
