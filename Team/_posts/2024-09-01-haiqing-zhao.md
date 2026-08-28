@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Haiqing Zhao
-position: Assistant Professor
+position: Assistant Professor (PI)
 image: /images/team/HaiqingZhao.jpg
 scholar: ui13duUAAAAJ
 website: https://zhaolabutmb.github.io
