@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8"/>
-	<title>LiverDCP: A Disease–Cell–Protein Framework for Multi-scale Modeling of Disease Biology</title>
+	<title>GraPPI: A Self-Supervised Graph Encoder for Transferable Protein–Protein Interaction Modeling</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- RSS feed -->
@@ -111,12 +111,12 @@
 		
 		<div class="titlebox">
 			<div class="title">
-				LiverDCP: A Disease–Cell–Protein Framework for Multi-scale Modeling of Disease Biology
+				GraPPI: A Self-Supervised Graph Encoder for Transferable Protein–Protein Interaction Modeling
 			</div>
 			<p>
 			<div class="smallhead">
 
-				Ziyu Shi, Zhiyuan Song, Heather Stevenson-Lerner, Bingning Dong, Haiqing Zhao,
+				Zhiyuan Song, Ziyu Shi, Gary Sun, Surendra Negi, Hugues Fausther-Bovendo, Haiqing Zhao,
 				<i>bioRxiv</i>,
 				2026
 			</div>
@@ -139,7 +139,7 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="https://www.biorxiv.org/content/10.64898/2026.08.07.743628v2.full.pdf">2026.08.07.743628v2.full.pdf</a>
+				<a class="off" href="https://www.biorxiv.org/content/10.64898/2026.09.28.755140v1.full.pdf">2026.09.28.755140v1.full.pdf</a>
 			</div>
 			<div class="bigspacer"></div>
 			
@@ -151,7 +151,7 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="https://doi.org/10.64898/2026.08.07.743628">10.64898/2026.08.07.743628</a>
+				<a class="off" href="https://doi.org/10.64898/2026.09.28.755140">10.64898/2026.09.28.755140</a>
 			</div>
 			<div class="bigspacer"></div>
 			
@@ -162,7 +162,7 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-github-alt fa-fw"></i>
-				<a class="off" href="https://github.com/zhaolabutmb/LiverDCP">zhaolabutmb/<wbr>LiverDCP</a>
+				<a class="off" href="https://github.com/zhaolabutmb/GraPPI">zhaolabutmb/<wbr>GraPPI</a>
 			</div>
 			<div class="bigspacer"></div>
 			
@@ -172,7 +172,7 @@
 	<div class="col-lg-8">
 		<div class="post">
 			<h1 id="abstract">Abstract</h1>
-<p>Understanding how molecular interactions give rise to disease phenotypes across cellular contexts remains a central challenge in biomedical research. Here, we introduce a Disease–Cell–Protein (DCP) paradigm for modeling multi-scale disease biology, which jointly represents disease states, cellular composition, and protein interaction networks within a unified graph architecture. We instantiate this paradigm in the liver as LiverDCP by integrating LiverHomo, a harmonized single-cell atlas of liver diseases, with proteome-wide predicted protein-protein interactions to construct over 280 context-specific interactomes across diverse liver disease and cellular conditions. LiverDCP employs a multi-context representation learning strategy that enables joint training across hundreds of disease-cell environments, capturing shared interaction principles while preserving context-specific variation. LiverDCP incorporates pretrained protein sequence-derived features through a geometry-aware two-phase training scheme that preserves embedding structure while improving predictive performance. The resulting DCP protein embeddings reveal extensive rewiring of protein functional states across diseases, providing a transferable representation for downstream biomedical applications. Without GWAS supervision during representation learning, LiverDCP enables disease-risk gene classification and identifies cell types through which genetic risk may act. For therapeutic target discovery, LiverDCP recovers established Phase II+ MASH targets and prioritizes previously unrecognized candidates from the unannotated proteome, with 26 of the top 50 predictions showing independent PubMed evidence related to MASH biology. Context-specific interaction analysis further provides mechanistic hypotheses for less-characterized candidates. Together, these results establish DCP as a generalizable framework for connecting molecular interactions, cellular context, genetic risk, and therapeutic opportunities across complex diseases.</p>
+<p>Protein–Protein Interactions (PPIs) are fundamental to cellular processes and represent major targets for therapeutic development. Recent advances in machine learning for protein modeling, particularly protein language models, have enabled powerful representations of protein sequences and monomeric structures. However, compared with the increasingly generalizable representations available for individual proteins, transferable representations explicitly designed to capture protein-complex and interface contexts remain less developed. Here, we developed GraPPI, a unified graph-based deep learning framework for learning transferable representations of protein–protein complexes. At its core, PPIencoder represents protein complexes as heterogeneous residual graphs and uses self-supervised masked-edge prediction to learn interaction-aware representations that integrate sequence, three-dimensional geometry, and physicochemical properties. We then evaluated the transferability of these pretrained representations across complementary PPI tasks spanning binding-mode classification, binding-affinity prediction, and mutation-associated affinity prediction. GraPPI accurately distinguished plausible binding interfaces from perturbed or decoy binding interfaces, achieving AUROC values above 0.92 on an independent benchmark. For protein–protein binding-affinity prediction, GraPPI achieved Pearson correlations coefficients of 0.690 and 0.684 on the S90 and S79 benchmarks, respectively, with performance competitive with or exceeding that of recently reported affinity-prediction methods. GraPPI further transferred effectively to mutation-associated binding-affinity prediction, achieving a Pearson correlation of 0.84 and a mean absolute error of 1.20 kcal/mol on an independent SKEMPI benchmark. Together, these results establish GraPPI as a generalizable framework for protein-complex representation learning, extending pretrained protein representations from individual proteins toward the interaction context in which protein function is realized.</p>
 
 		</div>
 	</div>
