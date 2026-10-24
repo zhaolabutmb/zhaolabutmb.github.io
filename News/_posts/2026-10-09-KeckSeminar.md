@@ -6,4 +6,5 @@ date: 2026-10-09
 
 ---
 
-Dr. Zhao was honored to be invited by the Keck Seminar Speaker Selection Committee, a trainee committee consisting of PhD students and postdoctoral researchers from eight regional institutions, to present his group’s recent research at Rice University. The seminar was hosted by the Gulf Coast Consortia as part of its Keck Seminar Series.
+
+Dr. Zhao was invited by the trainee-led selection committee to present the group’s recent research at the [Keck Seminar Series](https://gulfcoastconsortia.org/home/training/keck-seminar/), organized by the Gulf Coast Consortia and hosted at Rice University. His talk, titled “Proteins in Context: Using AI to Connect Molecular Interactions to Disease,” sparked engaging discussions with the audience. This seminar series serves GCC-supported training programs across eight regional institutions.
