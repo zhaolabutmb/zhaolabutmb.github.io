@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dr. Zhao Invited to Present at the Keck Seminar Series
+title: Dr. Zhao Invited to Present at the Keck Seminar
 
 date: 2026-10-09
 
